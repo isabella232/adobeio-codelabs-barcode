@@ -1,14 +1,14 @@
 {
-  "title": "CodeLab title",
-  "repository": "https://github.com/AdobeDocs/adobeio-codelabs-template",
+  "title": "Your first Headless App with Project Firefly",
+  "repository": "https://github.com/AdobeDocs/adobeio-codelabs-barcode",
   "navigation": [{
-    "title": "Lesson 1",
-    "url": "/lessons/lesson1"
+    "title": "Bootstrap a Headless App",
+    "url": "/lessons/bootstrap"
   }, {
-    "title": "Lesson 2",
-    "url": "/lessons/lesson2"
+    "title": "Writing a Serverless Action",
+    "url": "/lessons/barcode"
   }, {
-    "title": "Lesson 3",
-    "url": "/lessons/lesson3"
+    "title": "Unit and E2E Tests",
+    "url": "/lessons/test"
   }]
 }

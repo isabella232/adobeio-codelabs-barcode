@@ -4,3 +4,28 @@
   script.src = `https://adobeioruntime.net/api/v1/web/aioe-${ENV}/aio-developers-0.0.1/codelabs?file=head.js`;
   document.head.appendChild(script);
 </script>
+
+<script>
+  function a() {
+return new Promise((resolve, reject) => {
+  bwipjs.toBuffer({
+    bcid: 'code128',
+    text: args.value || '',
+    scale: 3,
+    height: 10,
+    includetext: false,
+  }, (err, buffer) => {
+    if (err) {
+      reject(err);
+    }
+    else {
+      resolve({
+        headers: { 'Content-Type': 'image/png' },
+        statusCode: 200,
+        body: buffer.toString('base64')
+      });
+    }
+  });
+});
+  }
+</script>
