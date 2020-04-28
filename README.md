@@ -5,7 +5,7 @@ This codelab will guide you through creating a headless app using Project Firefl
 The app will generate a code128 barcode based on the user provided value. It's a simple app that can be used and adapted for different use cases.
  
 * A demo is available [here](https://s3.amazonaws.com/adobe-cna/ringel/adobeio-cna-barcode-1.0.0-beta/index.html) for preview with a minimalistic UI.
-* The project source code of the codelab is available at https://github.com/AdobeDocs/adobeio-codelabs-barcode/blob/master/source.
+* The project source code of the codelab is also available [here](https://github.com/AdobeDocs/adobeio-codelabs-barcode/blob/master/lessons/source/my-barcode-app.zip).
 
 ![barcode](lessons/assets/barcode.png)   
 
