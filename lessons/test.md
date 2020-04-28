@@ -129,7 +129,7 @@ const fetch = require('node-fetch');
 const barcodeReader = require('javascript-barcode-reader');
 ``` 
 
-By default, your deployed action is accessible at https://<namespace>.adobeioruntime.net/api/v1/web/<app-name>-<version>/<action>. 
+By default, your deployed action is accessible at `https://<namespace>.adobeioruntime.net/api/v1/web/<app-name>-<version>/<action>`. 
 We can construct the action url by following this pattern:
 
 ```javascript
@@ -191,6 +191,6 @@ Similar to the unit tests, we'll use the npm script `npm run e2e` from `package.
 **Congratulations ! You've reached the end**. This is all it takes to build a Firefly Headless App.
 The barcode action can be used for example to send a receipt via email to customers after a checkout.   
 
-In the next codelab, we'll show you how to integrate Firefly with Adobe Experience Cloud solutions like the Adobe Campaign by using our SDKs.  
+In the next codelab, we'll show you how to integrate Firefly with Adobe Experience Cloud solutions like Adobe Campaign by using our SDKs.  
 
  

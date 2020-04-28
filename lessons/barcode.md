@@ -101,7 +101,7 @@ You can run the action locally using the CLI with
 aio app run --local
 ```
  
-which will expose a url like http://localhost:3233/api/v1/web/guest/my-barcode-app-0.0.1/barcode for testing and debugging.
+which will expose a url like `http://localhost:3233/api/v1/web/guest/my-barcode-app-0.0.1/barcode` for testing and debugging.
 Note that we'll cover how to do debug a Firefly app in another codelab.
 
 Now if you add the value parameter to the url e.g. `?value=test`, the action should generate a barcode:
