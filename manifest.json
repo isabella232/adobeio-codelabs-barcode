@@ -2,6 +2,9 @@
   "title": "Your first Headless App with Project Firefly",
   "repository": "https://github.com/AdobeDocs/adobeio-codelabs-barcode",
   "navigation": [{
+    "title": "Requirements",
+    "url": "/lessons/requirements"
+  },{
     "title": "Bootstrap a Headless App",
     "url": "/lessons/bootstrap"
   }, {
@@ -10,5 +13,8 @@
   }, {
     "title": "Unit and E2E Tests",
     "url": "/lessons/test"
+  }, {
+    "title": "Well done",
+    "url": "/lessons/welldone"
   }]
 }

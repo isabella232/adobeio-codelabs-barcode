@@ -186,11 +186,8 @@ Similar to the unit tests, we'll use the npm script `npm run e2e` from `package.
 
 ![e2e-tests](assets/e2e-tests.png)
 
-### What's next
+Next: [Well done](/lessons/welldone.md)
 
-**Congratulations ! You've reached the end**. This is all it takes to build a Firefly Headless App.
-The barcode action can be used for example to send a receipt via email to customers after a checkout.   
-
-In the next codelab, we'll show you how to integrate Firefly with Adobe Experience Cloud solutions like Adobe Campaign by using our SDKs.  
+  
 
  

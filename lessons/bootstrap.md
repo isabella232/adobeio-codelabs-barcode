@@ -1,11 +1,5 @@
 ## Bootstrap a Headless Firefly App
 
-We'll first start by installing the [Project Firefly CLI](https://github.com/adobe/aio-cli): 
-```bash
-npm install -g @adobe/aio-cli
-```     
-It's a swiss army knife that will help you build, deploy and debug your apps. We'll publish a dedicated codelab for the CLI to explain what you can achieve with this tool and what's actually happening behind the scenes.
-
 In order to create your barcode application, use the following command:
 ```bash
 aio app init my-barcode-app 
@@ -13,11 +7,21 @@ aio app init my-barcode-app
 
 You're presented with a few options what you want your app to include (Serverless Actions, Web UI, CI/CD pipeline). Since we want to build a headless app, we're only interested in using `Actions: Deploy Runtime actions`.
 
-The 2nd question, the CLI asks us which experience cloud or experience platform apps you want to extend or build. In this case, we're going to choose `Generic` and move to the next steps where we'll specify the action name `barcode`.  
+![cli1](assets/cli1.png)
 
-What's happening here, from the command line a developer project is created that includes everything from the serverless actions, configuration files, tests etc. We didn't include the UI setup nor the CI/CD pipeline. These topics will be covered in another codelab.
- 
-![bootstrap](assets/bootstrap.png) 
+The second question, the CLI asks us which experience cloud or experience platform apps you want to extend or build. In this case, we're going to choose `Generic`. 
+
+![cli2](assets/cli2.png)
+
+The third question, we'll specify the action name `barcode`.
+
+![cli3](assets/cli3.png)
+
+What's happening here, from the command line a developer project is created that includes everything from the serverless actions, configuration files, tests etc. 
+
+![cli3](assets/cli4.png)
+
+We didn't include the UI setup nor the CI/CD pipeline. These topics will be covered in another codelab. 
 
 For our barcode app, we'll start by modifying the following files:
 

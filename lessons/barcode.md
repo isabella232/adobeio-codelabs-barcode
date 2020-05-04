@@ -106,7 +106,7 @@ Note that we'll cover how to do debug a Firefly app in another codelab.
 
 Now if you add the value parameter to the url e.g. `?value=test`, the action should generate a barcode:
 
-![barcode](assets/barcode.png)
+![barcode](https://ringel.adobeioruntime.net/api/v1/web/my-barcode-app-0.0.1/barcode?value=test)
 
 ### Deploying
 
