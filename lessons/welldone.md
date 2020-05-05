@@ -1,8 +1,18 @@
 ## Well done
 
 **You've reached the end**. This is all it takes to build a Firefly Headless App.
-The barcode action can be used for example to send a receipt via email to customers after a checkout.   
+Now you can leverage the barcode action for example in an [email template inside Adobe Campaign](https://medium.com/adobetech/adobe-i-o-runtime-polishing-the-rough-edges-of-saas-solutions-238f82b58765).   
+
+### Achievements
+
+In this codelab, you've learnt how to: 
+
+* Bootstrap a Firefly Headless App with the Firefly CLI
+* Write a Runtime action with parameters 
+* Write Unit and E2E tests for a Runtime action  
+* Deploy a Runtime action locally    
+* Deploy a Runtime web action on Adobe infrastructure 
+
+### What's next ?
 
 In the next codelab, we'll show you how to integrate a UI with React Spectrum and CI/CD with Github Actions into a Firefly App.
-
-![barcode UI](assets/barcode-ui.png)
