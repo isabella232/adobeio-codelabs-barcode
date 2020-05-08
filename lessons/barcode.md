@@ -1,4 +1,4 @@
-## Writing a Serverless Action
+## Lesson 2: Writing a Serverless Action
 
 There are many existing npm packages to display a barcode. Some don't play well in serverless environments. 
 For this codelab, we'll use [bwip-js](https://www.npmjs.com/package/bwip-js/) to render a code128 barcode. 

@@ -1,4 +1,4 @@
-## Testing a Serverless Action
+## Lesson 3: Testing a Serverless Action
 
 A Firefly App created with `aio app init` has a [jest](https://jestjs.io/) test structure by default. We'll show how to take advantage of it.
 
