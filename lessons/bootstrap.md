@@ -27,7 +27,7 @@ For our barcode app, we'll start by modifying the following files:
 
 **manifest.yml** which contains all defined actions with their default parameters:
 
-```
+```yaml
 packages:
   __APP_PACKAGE__:
     license: Apache-2.0
@@ -68,7 +68,6 @@ packages:
 **.env** should not be committed as you'll this is where you'll store your Adobe I/O Runtime secrets (namespace and auth):
 
 ```
-
 # Specify your secrets here
 # This file should not be committed to source control
 
