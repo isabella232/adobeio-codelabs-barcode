@@ -1,23 +1,33 @@
 {
-  "title": "Your first Headless App with Project Firefly",
+  "title": "Your First Headless App with Project Firefly",
   "repository": "https://github.com/AdobeDocs/adobeio-codelabs-barcode",
+  "author": {
+    "name": "Stephan Ringel",
+    "email": "iodev@adobe.com"
+  },
   "navigation": [{
     "title": "Introduction",
-    "url": "/README"
+    "url": "/README",
+    "duration": 1
   }, {
     "title": "Requirements",
-    "url": "/lessons/requirements"
+    "url": "/lessons/requirements",
+    "duration": 3
   }, {
     "title": "Lesson 1: Bootstrap a Headless App",
-    "url": "/lessons/bootstrap"
+    "url": "/lessons/bootstrap",
+    "duration": 5
   }, {
     "title": "Lesson 2: Writing a Serverless Action",
-    "url": "/lessons/barcode"
+    "url": "/lessons/barcode",
+    "duration": 8
   }, {
     "title": "Lesson 3: Unit and E2E Tests",
-    "url": "/lessons/test"
+    "url": "/lessons/test",
+    "duration": 10
   }, {
     "title": "Well done",
-    "url": "/lessons/welldone"
+    "url": "/lessons/welldone",
+    "duration": 1
   }]
 }
