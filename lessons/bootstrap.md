@@ -65,7 +65,7 @@ packages:
 }
 ```
  
-**.env** should not be committed as you'll this is where you'll store your Adobe I/O Runtime secrets (namespace and auth):
+**.env** should not be committed as this is where you'll store your Adobe I/O Runtime secrets (namespace and auth):
 
 ```
 # Specify your secrets here
