@@ -9,4 +9,4 @@ The app will generate a code128 barcode based on the user provided value. It's a
 
 ![barcode](https://ringel.adobeioruntime.net/api/v1/web/my-barcode-app-0.0.1/barcode?value=adobe)   
 
-Next: [Requirements](/lessons/requirements.md).
+Next: [Requirements](/lessons/requirements.md)
