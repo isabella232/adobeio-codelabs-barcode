@@ -15,4 +15,4 @@ In this codelab, you've learnt how to:
 
 ### What's next ?
 
-In the next codelab, we'll show you how to integrate a UI with React Spectrum and CI/CD with Github Actions into a Firefly App.
+Check out other useful codelabs for your projects at [Adobe I/O Codelabs website](https://adobedocs.github.io/adobeio-codelabs).
