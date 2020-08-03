@@ -5,7 +5,7 @@ In order to create your barcode application, use the following command:
 aio app init my-barcode-app 
 ```
 
-You're presented with a few options what you want your app to include (Serverless Actions, Web UI, CI/CD pipeline). Since we want to build a headless app, we're only interested in using `Actions: Deploy Runtime actions`.
+We select the org, project and workspace for our app, and then be presented with a few options what you want your app to include (Serverless Actions, Web UI, CI/CD pipeline, I/O Events). Since we are building a headless app, we're only interested in using `Actions: Deploy Runtime actions`.
 
 ![cli1](assets/cli1.png)
 
@@ -21,7 +21,7 @@ What's happening here, from the command line a developer project is created that
 
 ![cli3](assets/cli4.png)
 
-We didn't include the UI setup nor the CI/CD pipeline. These topics will be covered in another codelab. 
+We didn't include the UI setup nor the CI/CD pipeline nor I/O Events. These topics will be covered in other codelabs. 
 
 For our barcode app, we'll start by modifying the following files:
 
